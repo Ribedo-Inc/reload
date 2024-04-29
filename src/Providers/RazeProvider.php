@@ -32,7 +32,7 @@ class RazeProvider extends ServiceProvider
                 throw new \Exception("The raze.json file appears to be invalid. A helpful tip: Execute 'php artisan raze:init' to generate a valid raze.json.", 1);
             }
 
-            if (!array_key_exists('includes', $razeConfig)) {
+            if (!array_key_exists('include', $razeConfig)) {
                 throw new \Exception("The raze.json file appears to be invalid. A helpful tip: Execute 'php artisan raze:init' to generate a valid raze.json.", 1);
             }
 

@@ -26,7 +26,7 @@ class RazeInit extends Command
     public function handle()
     {
         $filePath = getcwd() . '/raze.json';
-        $jsonData = json_encode(['includes' => ["resources/views/**", "resources/css/**"]], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
+        $jsonData = json_encode(['include' => ["resources/views/**", "resources/css/**"]], JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
 
         file_put_contents($filePath, $jsonData);
 
