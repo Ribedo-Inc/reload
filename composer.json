@@ -1,5 +1,5 @@
 {
-  "name": "ribedo/raze",
+  "name": "ribedo/reload",
   "description": "A package designed to seamlessly integrate with the Ribedo Raze desktop application for live reloading in your Laravel application.",
   "license": "MIT",
   "authors": [
